@@ -1,0 +1,91 @@
+ /* Styling for Hansen's Cinema */
+    
+body {
+        background-color: black;
+        color: white;
+        font-family: Comic, sans-serif;
+        margin: 0;
+      }
+      
+      /* navigation bar */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #222;
+        padding: 1rem;
+      }
+      
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.5rem;
+      }
+      
+      /* header */
+      header {
+        text-align: center;
+        padding: 5rem;
+      }
+      
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 0;
+      }
+      
+      /* main content */
+      main {
+        padding: 2rem;
+        text-align: center;
+      }
+      
+      p {
+        line-height: 1.5;
+      }
+
+      /* Movie Images */
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            
+            }       
+
+        .MovieTitle {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+            
+            }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+
+        @media (max-width: 768px) {
+        .image-container {
+        flex-direction: column;
+        }
+  
+        img {
+        flex: none;
+        width: 100%;
+        }
+        
+
+}
+
+      
+      /* footer */
+      footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+    </style>
